@@ -23,8 +23,8 @@ class StartState extends State<LoginScreen> {
               height: 300,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(bottomLeft: Radius.circular(90)),
-                color: new Color(0xffF5591F),
-                gradient: LinearGradient(colors: [(new  Color(0xffF5591F)), new Color(0xffF2861E)],
+                color: new Color(0xff145aa3),
+                gradient: LinearGradient(colors: [(new  Color(0xff145aa3)), new Color(0xff1971cd)],
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                 ),
@@ -75,11 +75,11 @@ class StartState extends State<LoginScreen> {
                 ],
               ),
               child: TextField(
-                cursorColor: Color(0xffF5591F),
+                cursorColor: Color(0xff145aa3),
                 decoration: InputDecoration(
                   icon: Icon(
                     Icons.email,
-                    color: Color(0xffF5591F),
+                    color: Color(0xff145aa3),
                   ),
                   hintText: "Enter Email",
                   enabledBorder: InputBorder.none,
@@ -105,12 +105,12 @@ class StartState extends State<LoginScreen> {
                 ],
               ),
               child: TextField(
-                cursorColor: Color(0xffF5591F),
+                cursorColor: Color(0xff145aa3),
                 decoration: InputDecoration(
-                  focusColor: Color(0xffF5591F),
+                  focusColor: Color(0xff145aa3),
                   icon: Icon(
                     Icons.vpn_key,
-                    color: Color(0xffF5591F),
+                    color: Color(0xff145aa3),
                   ),
                   hintText: "Enter Password",
                   enabledBorder: InputBorder.none,
@@ -125,7 +125,7 @@ class StartState extends State<LoginScreen> {
                 onTap: () {
                   // Write Click Listener Code Here
                 },
-                child: Text("Forget Password?"),
+                child: Text("Forgot Password?"),
               ),
             ),
 
@@ -139,7 +139,7 @@ class StartState extends State<LoginScreen> {
                 padding: EdgeInsets.only(left: 20, right: 20),
                 height: 54,
                 decoration: BoxDecoration(
-                  gradient: LinearGradient(colors: [(new  Color(0xffF5591F)), new Color(0xffF2861E)],
+                  gradient: LinearGradient(colors: [(new  Color(0xff145aa3)), new Color(0xff1971cd)],
                       begin: Alignment.centerLeft,
                       end: Alignment.centerRight
                   ),
@@ -171,7 +171,7 @@ class StartState extends State<LoginScreen> {
                     child: Text(
                       "Register Now",
                       style: TextStyle(
-                          color: Color(0xffF5591F)
+                          color: Color(0xff145aa3)
                       ),
                     ),
                     onTap: () {

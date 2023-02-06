@@ -18,8 +18,8 @@ class InitState extends State<SignUpScreen> {
                   height: 250,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.only(bottomLeft: Radius.circular(90)),
-                    color: new Color(0xffF5591F),
-                    gradient: LinearGradient(colors: [(new  Color(0xffF5591F)), new Color(0xffF2861E)],
+                    color: new Color(0xff145aa3),
+                    gradient: LinearGradient(colors: [(new  Color(0xff145aa3)), new Color(0xff1971cd)],
                       begin: Alignment.topCenter,
                       end: Alignment.bottomCenter,
                     ),
@@ -70,11 +70,11 @@ class InitState extends State<SignUpScreen> {
                     ],
                   ),
                   child: TextField(
-                    cursorColor: Color(0xffF5591F),
+                    cursorColor: Color(0xff145aa3),
                     decoration: InputDecoration(
                       icon: Icon(
                         Icons.person,
-                        color: Color(0xffF5591F),
+                        color: Color(0xff145aa3),
                       ),
                       hintText: "Full Name",
                       enabledBorder: InputBorder.none,
@@ -100,11 +100,11 @@ class InitState extends State<SignUpScreen> {
                     ],
                   ),
                   child: TextField(
-                    cursorColor: Color(0xffF5591F),
+                    cursorColor: Color(0xff145aa3),
                     decoration: InputDecoration(
                       icon: Icon(
                         Icons.email,
-                        color: Color(0xffF5591F),
+                        color: Color(0xff145aa3),
                       ),
                       hintText: "Email",
                       enabledBorder: InputBorder.none,
@@ -130,12 +130,12 @@ class InitState extends State<SignUpScreen> {
                     ],
                   ),
                   child: TextField(
-                    cursorColor: Color(0xffF5591F),
+                    cursorColor: Color(0xff145aa3),
                     decoration: InputDecoration(
-                      focusColor: Color(0xffF5591F),
+                      focusColor: Color(0xff145aa3),
                       icon: Icon(
                         Icons.phone,
-                        color: Color(0xffF5591F),
+                        color: Color(0xff145aa3),
                       ),
                       hintText: "Phone Number",
                       enabledBorder: InputBorder.none,
@@ -160,12 +160,12 @@ class InitState extends State<SignUpScreen> {
                     ],
                   ),
                   child: TextField(
-                    cursorColor: Color(0xffF5591F),
+                    cursorColor: Color(0xff145aa3),
                     decoration: InputDecoration(
-                      focusColor: Color(0xffF5591F),
+                      focusColor: Color(0xff145aa3),
                       icon: Icon(
                         Icons.vpn_key,
-                        color: Color(0xffF5591F),
+                        color: Color(0xff145aa3),
                       ),
                       hintText: "Enter Password",
                       enabledBorder: InputBorder.none,
@@ -184,7 +184,7 @@ class InitState extends State<SignUpScreen> {
                     padding: EdgeInsets.only(left: 20, right: 20),
                     height: 54,
                     decoration: BoxDecoration(
-                      gradient: LinearGradient(colors: [(new  Color(0xffF5591F)), new Color(0xffF2861E)],
+                      gradient: LinearGradient(colors: [(new  Color(0xff145aa3)), new Color(0xff1971cd)],
                           begin: Alignment.centerLeft,
                           end: Alignment.centerRight
                       ),
@@ -216,7 +216,7 @@ class InitState extends State<SignUpScreen> {
                         child: Text(
                           "Login Now",
                           style: TextStyle(
-                              color: Color(0xffF5591F)
+                              color: Color(0xff145aa3)
                           ),
                         ),
                         onTap: () {
